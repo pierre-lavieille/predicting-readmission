@@ -1,0 +1,59 @@
+2021-12-07 17:20:58,694 - main_preprocessing_from_name - INFO    : Beginning of preprocessing function: preprocessing_for_orfee
+2021-12-07 17:21:02,213 - main_preprocessing_from_name - INFO    : End of preprocessing function: preprocessing_for_orfee
+2021-12-07 17:21:02,684 - main_modeling_from_name - INFO    : Beginning of Grid Search using random_forest
+2021-12-07 17:23:23,347 - main_modeling_from_name - INFO    : End of Grid Search using random_forest
+2021-12-07 17:23:23,348 - main_modeling_from_name - INFO    : Best parameteres are :
+2021-12-07 17:23:23,348 - main_modeling_from_name - INFO    : {'max_depth': None, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 150}
+2021-12-07 17:23:23,348 - main_modeling_from_name - INFO    : best score0.43305777156442515
+2021-12-07 17:23:23,428 - save_model - INFO    : Modele sauvergarde: ../Outputs/Models/orfee_random_forest.sav
+2021-12-07 17:23:23,520 - load_model - INFO    : Modele charge: ../Outputs/Models/orfee_random_forest.sav
+2021-12-07 17:24:05,292 - __init__ - INFO    : Beginning of calculating the SHAP values using random_forest
+2021-12-07 17:30:35,118 - __init__ - INFO    : End of calculating the SHAP values using random_forest
+2021-12-07 17:30:43,511 - global_interpretability - INFO    : Beginning of calculating the Necessity values using random_forest
+2021-12-07 17:34:38,038 - global_interpretability - INFO    : End of calculating the Necessity values using random_forest
+2021-12-08 16:00:11,723 - main_preprocessing_from_name - INFO    : Beginning of preprocessing function: preprocessing_for_bank
+2021-12-08 16:00:11,988 - get_y_column_from_conf - ERROR   : This dataset do no have any y column or do not exist
+2021-12-08 16:02:13,935 - main_preprocessing_from_name - INFO    : Beginning of preprocessing function: preprocessing_for_bank
+2021-12-08 16:02:15,586 - preprocessing_for_bank - INFO    : preprocessing banking ok
+2021-12-08 16:02:15,588 - main_preprocessing_from_name - INFO    : End of preprocessing function: preprocessing_for_bank
+2021-12-08 16:05:57,896 - main_preprocessing_from_name - INFO    : Beginning of preprocessing function: preprocessing_for_bank
+2021-12-08 16:05:59,917 - preprocessing_for_bank - INFO    : preprocessing banking ok
+2021-12-08 16:05:59,920 - main_preprocessing_from_name - INFO    : End of preprocessing function: preprocessing_for_bank
+2021-12-08 16:06:05,372 - main_modeling_from_name - INFO    : Beginning of Grid Search using random_forest
+2021-12-08 16:18:50,294 - main_modeling_from_name - INFO    : End of Grid Search using random_forest
+2021-12-08 16:18:50,296 - main_modeling_from_name - INFO    : Best parameteres are :
+2021-12-08 16:18:50,296 - main_modeling_from_name - INFO    : {'max_depth': None, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 150}
+2021-12-08 16:18:50,296 - main_modeling_from_name - INFO    : best score0.5629568715528712
+2021-12-08 16:18:50,418 - save_model - INFO    : Modele sauvergarde: ../Outputs/Models/bank_random_forest.sav
+2021-12-08 16:19:46,646 - load_model - INFO    : Modele charge: ../Outputs/Models/bank_random_forest.sav
+2021-12-08 16:22:34,499 - __init__ - INFO    : Beginning of calculating the SHAP values using random_forest
+2021-12-08 17:05:51,734 - __init__ - INFO    : End of calculating the SHAP values using random_forest
+2021-12-08 17:18:05,910 - global_interpretability - INFO    : Beginning of calculating the Necessity values using random_forest
+2021-12-08 17:22:51,145 - global_interpretability - INFO    : End of calculating the Necessity values using random_forest
+2021-12-09 11:27:40,442 - main_preprocessing_from_name - INFO    : Beginning of preprocessing function: preprocessing_for_diabetic
+2021-12-09 11:27:47,852 - preprocessing_for_diabetic - INFO    : preprocessing Diabetic ok
+2021-12-09 11:27:47,853 - main_preprocessing_from_name - INFO    : End of preprocessing function: preprocessing_for_diabetic
+2021-12-09 11:28:01,048 - main_modeling_from_name - INFO    : Beginning of Grid Search using random_forest
+2021-12-09 11:55:19,082 - main_modeling_from_name - INFO    : End of Grid Search using random_forest
+2021-12-09 11:55:19,084 - main_modeling_from_name - INFO    : Best parameteres are :
+2021-12-09 11:55:19,084 - main_modeling_from_name - INFO    : {'max_depth': None, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+2021-12-09 11:55:19,084 - main_modeling_from_name - INFO    : best score0.5785662131324736
+2021-12-09 11:55:20,581 - save_model - INFO    : Modele sauvergarde: ../Outputs/Models/diabetic_random_forest.sav
+2021-12-09 11:55:21,343 - load_model - INFO    : Modele charge: ../Outputs/Models/diabetic_random_forest.sav
+2021-12-09 12:38:53,929 - __init__ - INFO    : Beginning of calculating the SHAP values using random_forest
+2021-12-10 09:15:08,475 - load_model - INFO    : Modele charge: ../Outputs/Models/diabetic_random_forest.sav
+2021-12-10 09:15:16,252 - __init__ - INFO    : Beginning of calculating the SHAP values using random_forest
+2021-12-10 11:38:10,854 - load_model - INFO    : Modele charge: ../Outputs/Models/diabetic_random_forest.sav
+2021-12-10 11:38:36,577 - __init__ - INFO    : Beginning of calculating the SHAP values using random_forest
+2021-12-10 16:11:35,903 - __init__ - INFO    : End of calculating the SHAP values using random_forest
+2021-12-10 16:11:47,052 - global_interpretability - INFO    : Beginning of calculating the Necessity values using random_forest
+2021-12-10 16:26:19,391 - global_interpretability - INFO    : End of calculating the Necessity values using random_forest
+2021-12-11 10:39:50,995 - main_preprocessing_from_name - INFO    : Beginning of preprocessing function: preprocessing_for_diabetic
+2021-12-11 10:39:53,617 - preprocessing_for_diabetic - INFO    : preprocessing Diabetic ok
+2021-12-11 10:39:53,617 - main_preprocessing_from_name - INFO    : End of preprocessing function: preprocessing_for_diabetic
+2021-12-11 10:40:02,647 - main_modeling_from_name - INFO    : Beginning of Grid Search using random_forest
+2021-12-11 10:43:49,308 - main_modeling_from_name - INFO    : End of Grid Search using random_forest
+2021-12-11 10:43:49,309 - main_modeling_from_name - INFO    : Best parameteres are :
+2021-12-11 10:43:49,309 - main_modeling_from_name - INFO    : {'max_depth': None, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 20, 'n_estimators': 200}
+2021-12-11 10:43:49,309 - main_modeling_from_name - INFO    : best score0.6024641877073462
+2021-12-11 10:43:49,413 - save_model - INFO    : Modele sauvergarde: ../Outputs/Models/diabetic_random_forest.sav
